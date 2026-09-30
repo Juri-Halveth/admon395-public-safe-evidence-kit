@@ -1,0 +1,15 @@
+*.pdf binary
+*.zip binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.html text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.py text eol=lf
+*.ps1 text eol=crlf

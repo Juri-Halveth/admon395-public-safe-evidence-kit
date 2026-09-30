@@ -1,0 +1,23 @@
+name: verify
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: py -m pip install -r requirements.txt
+      - name: Verify package
+        run: py scripts\verify_package.py
+      - name: Parse source page
+        run: py scripts\analyze_admon_html.py
+      - name: Build PDF
+        run: py scripts\build_admon395_pdf.py

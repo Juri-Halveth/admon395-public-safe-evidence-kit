@@ -1,0 +1,98 @@
+{
+  "generated_at_utc": "2026-09-30T23:57:28.282734+00:00",
+  "package": "admon395_github_materialization_kit",
+  "publication_state": "LOCAL_PREPARED_NOT_PUSHED",
+  "file_count": 18,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 227,
+      "sha256": "a62079b653f8538e029494adc9a22e77ceff0fab24ef31579c6807c867887bc2"
+    },
+    {
+      "path": ".github/workflows/verify.yml",
+      "bytes": 543,
+      "sha256": "75ba966659e7578bfe2d278d368a8b4cc92ad71964e9a02a436d6db31fa417b5"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 55,
+      "sha256": "6a44773ec74ada00c2b3837e3d01daac7d6c0efcbea381df08b3ec2c09ca446b"
+    },
+    {
+      "path": "CLAIM_BOUNDARY.md",
+      "bytes": 1149,
+      "sha256": "0f012030d89ab80a2ae4f701eebb436bed34b2ae4de041e6ac05b0158348e432"
+    },
+    {
+      "path": "docs/admon395_lesefassung_16_jahre_spaeter.md",
+      "bytes": 12384,
+      "sha256": "0221d3196b93a9cfdd0125f8376605ddc04e9e91bb45f615fa1e3e88d9aa0ed3"
+    },
+    {
+      "path": "docs/admon395_wesens_realitaet_lucinet_lesebuch_band1.pdf",
+      "bytes": 29931,
+      "sha256": "5cb90fce37ddcba4c4e626aea662dbfb38de6b8a61a229bee9ca1398769ab646"
+    },
+    {
+      "path": "evidence/PUBLIC_EVIDENCE_MANIFEST.json",
+      "bytes": 785,
+      "sha256": "c667976fac6d135e9aa2d03dbfc0a0a60680dd56ff4124dce5e4bc713117f8f9"
+    },
+    {
+      "path": "evidence/README_PUBLIC_EVIDENCE.md",
+      "bytes": 998,
+      "sha256": "69cd406f67fb30c25b0c9a738572884feb9196a5cbd2ec278f5690c8e5cb0f09"
+    },
+    {
+      "path": "evidence/SHA256SUMS.txt",
+      "bytes": 301,
+      "sha256": "aa4178d10a78ea94d04a925f75808807b3e5b61f4c28cc5ffc1bb73f840c8bfa"
+    },
+    {
+      "path": "evidence/Suchergebnisse_admon395_PAGE1_PUBLIC_SAFE.html",
+      "bytes": 167109,
+      "sha256": "0e13f4e59f4af86a32f65c5b2ce6b76c697b9ff85858191e021491f117acb20a"
+    },
+    {
+      "path": "MATERIALIZATION_STATUS.md",
+      "bytes": 734,
+      "sha256": "402a90b00f212befd6f229471f52efacc227440935b49a0af9e6f4c215f0a674"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2148,
+      "sha256": "5ce29bcfa36a540608b18f5a89d52a7fb3e8afd4e9d25f7b5a22018fd55ca982"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 37,
+      "sha256": "677a8f3b7b8168dbd39c1241d237f23fc19370263bef3a891a30dd44552c220a"
+    },
+    {
+      "path": "RUN_ALL.ps1",
+      "bytes": 325,
+      "sha256": "9b14a261f9268d6052a71843e48212a1b04b5b7685e80e7069c1def289910cb0"
+    },
+    {
+      "path": "scripts/analyze_admon_html.py",
+      "bytes": 3352,
+      "sha256": "e6f4a6f36acc8f115919e715f3b4de2e6bd4365058e992c887b54f0ed502a515"
+    },
+    {
+      "path": "scripts/build_admon395_pdf.py",
+      "bytes": 17645,
+      "sha256": "47bb4d3f85079f37c400a99ec6f8beed9837eeb6eb41078851b4aa5c34d7214a"
+    },
+    {
+      "path": "scripts/verify_package.py",
+      "bytes": 2455,
+      "sha256": "20f0ea6ee4b3d9c8c1d5ed8a8380a820b8093c0b01e56ec755b7274baf155126"
+    },
+    {
+      "path": "scripts/write_package_manifest.py",
+      "bytes": 1042,
+      "sha256": "cb3d0bfca44da375913b09acc2a231e31d8d0219cd7eaca5eb27541b84dd12ec"
+    }
+  ]
+}
