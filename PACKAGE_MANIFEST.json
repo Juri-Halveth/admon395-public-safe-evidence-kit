@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-10-01T00:00:22.903605+00:00",
+  "generated_at_utc": "2026-10-01T00:00:42.635975+00:00",
   "package": "admon395_github_materialization_kit",
   "publication_state": "LOCAL_PREPARED_NOT_PUSHED",
   "file_count": 18,
   "files": [
     {
       "path": ".gitattributes",
-      "bytes": 245,
-      "sha256": "2f81991c8e6cf0c752546174960e6297a275702d429188e05d8d0914128686fb"
+      "bytes": 257,
+      "sha256": "648b633be4d5a9dd463d47079c87486821268b00f806a6905c425670fee4d6fc"
     },
     {
       "path": ".github/workflows/verify.yml",
