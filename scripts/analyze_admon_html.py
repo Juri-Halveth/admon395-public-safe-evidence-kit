@@ -2,10 +2,14 @@ from __future__ import annotations
 
 import json
 import re
+import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
 from bs4 import BeautifulSoup
+
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
 
 
 ROOT = Path(__file__).resolve().parents[1]
