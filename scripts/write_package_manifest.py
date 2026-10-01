@@ -32,7 +32,8 @@ for path in sorted(ROOT.rglob("*")):
 manifest = {
     "generated_at_utc": datetime.now(timezone.utc).isoformat(),
     "package": "admon395_github_materialization_kit",
-    "publication_state": "LOCAL_PREPARED_NOT_PUSHED",
+    "publication_state": "PUBLIC_GITHUB_REPO_PUSHED_AND_RELEASED",
+    "github_repository": "https://github.com/Juri-Halveth/admon395-public-safe-evidence-kit",
     "file_count": len(files),
     "files": files,
 }

@@ -2,7 +2,7 @@
 
 Generated locally on 2026-10-01.
 
-## Local State
+## Observed State
 
 ```text
 REPO_STRUCTURE: present
@@ -11,17 +11,16 @@ VERIFY_SCRIPT: passed locally
 HTML_ANALYSIS: passed locally
 PDF_BUILD: passed locally
 LOCAL_GIT_REPO: initialized
-LOCAL_COMMIT: pending until committed
-GITHUB_REMOTE: not configured here
-GITHUB_PUSH: not performed
-CI_ACCEPTANCE: not yet observed
-PUBLICATION: not performed
+LOCAL_COMMIT: 4f1e16a4fc727d872d91fa346d2429e13f474980 before proof-matrix update
+GITHUB_REMOTE: https://github.com/Juri-Halveth/admon395-public-safe-evidence-kit.git
+GITHUB_PUSH: observed
+CI_ACCEPTANCE: observed success, run 36794087311
+PUBLICATION: public GitHub repository and v0.1.0-public-safe release observed
 ```
 
 ## Intended Use
 
-This folder can be used as the seed for a GitHub repository after explicit
-authorization.
+This folder is the working copy for the public GitHub repository.
 
 Suggested local checks:
 
@@ -32,6 +31,5 @@ py -m pip install -r requirements.txt
 
 ## Boundary
 
-No external publication, GitHub push, release, or announcement is performed by
-this materialization step.
-
+Each later external publication, GitHub push, release, or announcement remains
+a separate materialization step with its own receipt.

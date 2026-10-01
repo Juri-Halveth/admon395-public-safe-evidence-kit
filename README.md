@@ -1,10 +1,10 @@
 # ADMON395 Public-Safe Evidence Kit
 
-This repository candidate preserves and analyzes a public-safe evidence package
-for the account-bound forum search page `admon395`.
+This repository preserves and analyzes a public-safe evidence package for the
+account-bound forum search page `admon395`.
 
-It is designed as a reproducible reading and evidence kit, not as a claim that
-every experience described in the forum material is externally true.
+It is designed as a reproducible reading and evidence kit: source bytes, hashes,
+scripts, generated reading material, and a proof matrix are kept together.
 
 ## What Is Here
 
@@ -14,6 +14,7 @@ every experience described in the forum material is externally true.
   - `SHA256SUMS.txt`
   - `Suchergebnisse_admon395_PAGE1_PUBLIC_SAFE.html`
 - `docs/` contains generated reader-facing outputs:
+  - `ADMON395_PROOF_MATRIX_2026-10-01.md`
   - `admon395_lesefassung_16_jahre_spaeter.md`
   - `admon395_wesens_realitaet_lucinet_lesebuch_band1.pdf`
 - `scripts/` contains the local analysis and PDF builder scripts.
@@ -65,16 +66,19 @@ from the included public-safe source page:
 py scripts\build_admon395_pdf.py
 ```
 
-## Status
+## Publication Status
 
-Local materialization state:
+Observed materialization state on 2026-10-01:
 
 ```text
 LOCAL_PREPARED: yes
-GITHUB_PUSHED: no
-PUBLISHED: no
-CI_ACCEPTED: not yet observed
+GITHUB_REPOSITORY: https://github.com/Juri-Halveth/admon395-public-safe-evidence-kit
+GITHUB_VISIBILITY: public
+DEFAULT_BRANCH: master
+REMOTE_HEAD: 4f1e16a4fc727d872d91fa346d2429e13f474980 before proof-matrix update
+CI_ACCEPTED: yes, run 36794087311
+RELEASE: v0.1.0-public-safe
 ```
 
-External publication, GitHub push, release creation, or public announcement
-requires a separate explicit authorization step.
+Future pushes, release updates, or public announcements remain separate
+materialization steps and should be recorded with their own receipt.

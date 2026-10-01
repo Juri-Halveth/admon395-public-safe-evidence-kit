@@ -1,8 +1,9 @@
 {
-  "generated_at_utc": "2026-10-01T00:01:47.686762+00:00",
+  "generated_at_utc": "2026-10-01T00:12:24.429199+00:00",
   "package": "admon395_github_materialization_kit",
-  "publication_state": "LOCAL_PREPARED_NOT_PUSHED",
-  "file_count": 18,
+  "publication_state": "PUBLIC_GITHUB_REPO_PUSHED_AND_RELEASED",
+  "github_repository": "https://github.com/Juri-Halveth/admon395-public-safe-evidence-kit",
+  "file_count": 19,
   "files": [
     {
       "path": ".gitattributes",
@@ -30,9 +31,14 @@
       "sha256": "0221d3196b93a9cfdd0125f8376605ddc04e9e91bb45f615fa1e3e88d9aa0ed3"
     },
     {
+      "path": "docs/ADMON395_PROOF_MATRIX_2026-10-01.md",
+      "bytes": 8747,
+      "sha256": "603e4c2be70e3ad44d7b63e7d3be3e40ebd04e6e53f85415b836f5dd2950a36d"
+    },
+    {
       "path": "docs/admon395_wesens_realitaet_lucinet_lesebuch_band1.pdf",
       "bytes": 29931,
-      "sha256": "5cb90fce37ddcba4c4e626aea662dbfb38de6b8a61a229bee9ca1398769ab646"
+      "sha256": "b8e73ed20429383f307b5793209d49f4c978fef72e871c8ba979bac096e018e7"
     },
     {
       "path": "evidence/PUBLIC_EVIDENCE_MANIFEST.json",
@@ -56,13 +62,13 @@
     },
     {
       "path": "MATERIALIZATION_STATUS.md",
-      "bytes": 734,
-      "sha256": "402a90b00f212befd6f229471f52efacc227440935b49a0af9e6f4c215f0a674"
+      "bytes": 896,
+      "sha256": "ace6029f92cc43568d098079509bae3a4a9b8c3694f548f2377118cbe8b9f868"
     },
     {
       "path": "README.md",
-      "bytes": 2148,
-      "sha256": "5ce29bcfa36a540608b18f5a89d52a7fb3e8afd4e9d25f7b5a22018fd55ca982"
+      "bytes": 2448,
+      "sha256": "07ad81c62fe42c0cc48a0771ed5444501a00ac81a3997d9c0811dc2e343a8255"
     },
     {
       "path": "requirements.txt",
@@ -91,8 +97,8 @@
     },
     {
       "path": "scripts/write_package_manifest.py",
-      "bytes": 1042,
-      "sha256": "cb3d0bfca44da375913b09acc2a231e31d8d0219cd7eaca5eb27541b84dd12ec"
+      "bytes": 1149,
+      "sha256": "cb086c1963910a28233c1d36984214fc1b2ea094eff2a7cf6d468a8047ac6f12"
     }
   ]
 }
