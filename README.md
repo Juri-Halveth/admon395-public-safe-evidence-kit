@@ -1,3 +1,7 @@
+<!-- HUB_LANGUAGES_V1 -->
+[Original / Deutsch](README.md) · [English](README.en.md) · [Русский](README.ru.md)
+<!-- /HUB_LANGUAGES_V1 -->
+
 # ADMON395 Public-Safe Evidence Kit
 
 This repository preserves and analyzes a public-safe evidence package for the
